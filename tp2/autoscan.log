@@ -1,0 +1,69 @@
+autoscan: warning: missing AC_CHECK_FUNCS([memmove]) wanted by: 
+	src/queue.c:120
+	src/queue.c:127
+	src/queue.c:152
+	src/queue.c:225
+	src/queue.c:226
+	src/queue.c:261
+	src/queue.c:263
+autoscan: warning: missing AC_CHECK_FUNCS([mkdir]) wanted by: 
+	src/graph.c:108
+	src/graph.c:150
+autoscan: warning: missing AC_CHECK_HEADERS([stdlib.h]) wanted by: 
+	src/bfs.c:4
+	src/bfs.h:5
+	src/cc_uf.c:2
+	src/compconnexes.c:2
+	src/distance.c:2
+	src/graph.h:3
+	src/plot.c:7
+	src/prepare_cc_uf.c:2
+	src/queue.c:2
+autoscan: warning: missing AC_CHECK_HEADERS([string.h]) wanted by: 
+	src/compconnexes.c:3
+	src/distance.c:3
+	src/graph.h:5
+	src/plot.c:9
+	src/prepare_cc_uf.c:3
+	src/queue.c:3
+autoscan: warning: missing AC_CHECK_HEADERS([unistd.h]) wanted by: 
+	src/graph.c:4
+	src/plot.c:11
+	src/queue.c:6
+autoscan: warning: missing AC_CHECK_HEADER_STDBOOL wanted by: 
+	src/bfs.c:15
+	src/bool.h:7
+	src/graph.c:48
+	src/graph.c:52
+	src/graph.c:163
+	src/graph.h:19
+autoscan: warning: missing AC_FUNC_MALLOC wanted by: 
+	src/bfs.c:93
+	src/bfs.c:94
+	src/cc_uf.c:33
+	src/cc_uf.c:34
+	src/cc_uf.c:93
+	src/cc_uf.c:96
+	src/graph.c:31
+	src/graph.c:72
+	src/plot.c:40
+	src/plot.c:47
+	src/plot.c:59
+	src/plot.c:71
+	src/queue.c:47
+	src/queue.c:73
+	src/queue.c:89
+autoscan: warning: missing AC_TYPE_SIZE_T wanted by: 
+	src/graph.c:53
+	src/queue.c:14
+	src/queue.c:15
+	src/queue.c:21
+	src/queue.c:45
+	src/queue.c:78
+	src/queue.c:193
+	src/queue.h:21
+	src/queue.h:26
+	src/queue.h:27
+autoscan: warning: missing AC_TYPE_SSIZE_T wanted by: 
+	src/queue.c:193
+	src/queue.h:27
