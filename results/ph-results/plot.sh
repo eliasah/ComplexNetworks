@@ -1,1 +1,0 @@
-gnuplot -e "set terminal png; set output 'curves.png'; plot [][] 'twitter-RT-skel' with lines, 'twitter-mentions-skel' with lines, 'comments-no-loop' with lines, 'week' with lines, 'phone' with lines, 'phone-skel' with lines; set terminal aqua; replot"
